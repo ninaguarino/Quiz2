@@ -1,5 +1,6 @@
 package org.apache.poi.ss.formula.functions;
 
+import java.util.Scanner;
 
 /* [From MS Excel function reference] Following are some of the key formulas that are used in this implementation:
  * p(1+r)^n + y(1+rt)((1+r)^n-1)/r + f=0   ...{when r!=0}
@@ -13,6 +14,26 @@ public final class TotalTuitionBill {
 		// class has no instances
 	}
 	
+	
+	public static void main(String[] args) {
+		
+		// Allows for user input
+		Scanner input = new Scanner(System.in);
+	
+		// Prompts user for all values needed and assigns them a variable name
+		System.out.println("Initial Tuition Cost: ");
+		double InitialTuition = input.nextDouble();
+		
+		System.out.println("Percent Increase: ");
+		double PercentIncr = input.nextDouble();
+		
+		System.out.println("Repayment APR: ");
+		double RepaymentAPR = input.nextDouble();
+		
+		
+		
+	}
+				
 	/* Future value of an amount given the number of payments, rate, amount of 
      * individual payment, present value and boolean value indicating whether payments 
      * are due at the beginning of period (false => payments are due at end of period)

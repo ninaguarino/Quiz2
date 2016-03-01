@@ -1,6 +1,6 @@
 package org.apache.poi.ss.formula.functions;
 import org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 public class TotalTuitionBill_Test  {
@@ -9,10 +9,8 @@ public class TotalTuitionBill_Test  {
 	    public void testFutureValue() {
 	        double FutureValue, Rate, PaymentPerPeriod, PresentValue, x;
 	        int NumberOfPeriods;
-
 		}
-		
-		
+	  
 		
 		
 		@Test
